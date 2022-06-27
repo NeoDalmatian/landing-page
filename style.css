@@ -32,6 +32,7 @@ a{
 }
 /* End of header */
 .lower-one{
+  /* img, text and button */
   margin: 0;
   background-color: #1F2937;
   padding: 50px 100px 100px;
@@ -42,6 +43,7 @@ a{
 }
 
 .text-one{
+  /* text and button */
   max-width: 430px;
   min-width: 350px;
   display: flex;
@@ -185,3 +187,14 @@ a{
   border-radius: 8px;
 }
 /* End of the fourth part of the website */
+
+/* Footer */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 10px 0;
+  font-size: 18;
+}
