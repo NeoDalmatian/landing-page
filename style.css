@@ -78,7 +78,7 @@ a{
 }
 /* End of first part of website */
 
-
+/* Second part of the website */
 .two{
   display: flex;
   flex-direction: column;
@@ -111,4 +111,29 @@ a{
   border-radius: 12px;
   height: 150px;
   width: auto;
+}
+/* End of the second part of the website */
+
+
+.three{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #E5E7EB;
+  padding: 130px 0 100px;
+}
+
+.text-three{
+  font-size: 36px;
+  max-width: 830px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+#quote-three{
+  font-size: 18px;
+  font-weight: 1000;
+  text-indent: 35em;
+  font-style: normal;
 }
